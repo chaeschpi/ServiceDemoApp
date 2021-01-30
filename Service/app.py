@@ -9,7 +9,7 @@ def home():
     stat = str(now.time()) 
     mydict = {
         "time" : stat, 
-        "servie" : "alive"
+        "service" : "alive"
     }
     return jsonify(mydict)
 if __name__ == '__main__': 
